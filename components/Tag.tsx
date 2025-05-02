@@ -4,7 +4,7 @@ const Tag = ({
 	title, icon
 }: {
 	title: string
-	icon?: 'FaHashtag' | 'FaReact' | 'FaDatabase'
+	icon?: 'FaHashtag' | 'FaReact' | 'FaDatabase' | 'FaFire' | 'FaGoogle'
 }) => {
 	const Icon = icon ? icons[icon] : icons.FaHashtag
 
